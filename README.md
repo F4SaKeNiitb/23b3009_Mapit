@@ -23,20 +23,13 @@ This template is designed to make it easy to run and evaluate submissions for a 
    ```
    make install
    ```
-3. **Add your Anthropic API key:** --> need not do
-   - Copy your API key into the `.env` file:
-     ```
-     ANTHROPIC_API_KEY=your_anthropic_api_key_here
+3. **Add your Gemini API key in the .env file**
      ```
 
 ## Usage
 
 Run the program with your desired subject:
 
-```
-make run SUBJECT=math
-```
-Or directly:
 ```
 python main.py --subject=math
 ```
@@ -54,7 +47,6 @@ python main.py --subject=math
 
 ## Notes
 - The template uses `python-dotenv` to load environment variables.
-- The Anthropic API is accessed via the `anthropic` Python package.
 ---
 
 Feel free to reach out if you have any questions!
