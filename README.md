@@ -1,6 +1,6 @@
-# Intern Test Task Template: Question to Concept Mapping
+# 23b3009 iitb
 
-This template is designed to make it easy to run and evaluate submissions for a question-to-concept mapping task using CSV data and the Anthropic LLM API.
+This template is designed to make it easy to run and evaluate submissions for a question-to-concept mapping task using CSV data and the Gemini LLM API.
 
 ## Folder Structure
 
