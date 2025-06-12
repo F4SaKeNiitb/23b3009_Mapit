@@ -6,7 +6,7 @@ load_dotenv()
 
 # API_KEY and genai.configure moved into call_gemini
 
-def call_gemini(prompt: str, model: str = "gemini-pro", max_tokens: int = 256) -> str:
+def call_gemini(prompt: str, model: str = "gemini-1.5-pro", max_tokens: int = 256) -> str:
     """
     Calls Google Gemini LLM with the given prompt and returns the response.
     Handles API key configuration internally.
